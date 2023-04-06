@@ -115,7 +115,7 @@ var swiper2 = new Swiper('.mySwiper2', {
     // 화면의 넓이가 980px 이상일 때
     600: {
       slidesPerView: 2,
-      spaceBetween: 100,
+      spaceBetween: 70,
     },
     980: {
       slidesPerView: 3,
