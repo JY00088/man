@@ -1,0 +1,2381 @@
+@charset "UTF-8";
+@import "./reset.css";
+@import "./inc.css";
+/*반응형, 브라우저 크기가 980px 이하일때*/
+body {
+  padding-top: 75px;
+}
+
+.boxsvg {
+  transform: translateY(0px);
+  transition: 1s;
+  opacity: 1;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  z-index: 99;
+}
+.boxsvg .boxsvgup {
+  top: 100px;
+  left: 0;
+  z-index: 99;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+.boxsvg .boxsvgup .upbox {
+  width: 100%;
+}
+.boxsvg .boxsvgup .upbox .introsvg {
+  padding-top: 45px;
+}
+.boxsvg .boxsvgup .upbox .introsvg .svg1 {
+  width: 100%;
+  height: 800px;
+  background-color: rgb(204, 204, 204);
+  -webkit-animation: svgg 4s infinite linear;
+          animation: svgg 4s infinite linear;
+  -webkit-clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%);
+          clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%);
+}
+@-webkit-keyframes svgg {
+  0% {
+    background-color: #00ce5f;
+    -webkit-clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%, 16% 14%);
+            clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%, 16% 14%);
+  }
+  25% {
+    background-color: #308aff;
+    -webkit-clip-path: polygon(50% 21%, 68% 0, 98% 21%, 93% 82%, 55% 68%, 34% 98%, 3% 59%, 16% 14%);
+            clip-path: polygon(50% 21%, 68% 0, 98% 21%, 93% 82%, 55% 68%, 34% 98%, 3% 59%, 16% 14%);
+  }
+  50% {
+    background-color: #cccccc;
+    -webkit-clip-path: polygon(61% 3%, 97% 25%, 90% 72%, 56% 96%, 29% 90%, 26% 68%, 3% 54%, 12% 22%);
+            clip-path: polygon(61% 3%, 97% 25%, 90% 72%, 56% 96%, 29% 90%, 26% 68%, 3% 54%, 12% 22%);
+  }
+  75% {
+    background-color: #308aff;
+    -webkit-clip-path: polygon(50% 21%, 68% 0, 98% 21%, 93% 82%, 55% 68%, 34% 98%, 3% 59%, 16% 14%);
+            clip-path: polygon(50% 21%, 68% 0, 98% 21%, 93% 82%, 55% 68%, 34% 98%, 3% 59%, 16% 14%);
+  }
+  100% {
+    background-color: #00ce5f;
+    -webkit-clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%, 16% 14%);
+            clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%, 16% 14%);
+  }
+}
+@keyframes svgg {
+  0% {
+    background-color: #00ce5f;
+    -webkit-clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%, 16% 14%);
+            clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%, 16% 14%);
+  }
+  25% {
+    background-color: #308aff;
+    -webkit-clip-path: polygon(50% 21%, 68% 0, 98% 21%, 93% 82%, 55% 68%, 34% 98%, 3% 59%, 16% 14%);
+            clip-path: polygon(50% 21%, 68% 0, 98% 21%, 93% 82%, 55% 68%, 34% 98%, 3% 59%, 16% 14%);
+  }
+  50% {
+    background-color: #cccccc;
+    -webkit-clip-path: polygon(61% 3%, 97% 25%, 90% 72%, 56% 96%, 29% 90%, 26% 68%, 3% 54%, 12% 22%);
+            clip-path: polygon(61% 3%, 97% 25%, 90% 72%, 56% 96%, 29% 90%, 26% 68%, 3% 54%, 12% 22%);
+  }
+  75% {
+    background-color: #308aff;
+    -webkit-clip-path: polygon(50% 21%, 68% 0, 98% 21%, 93% 82%, 55% 68%, 34% 98%, 3% 59%, 16% 14%);
+            clip-path: polygon(50% 21%, 68% 0, 98% 21%, 93% 82%, 55% 68%, 34% 98%, 3% 59%, 16% 14%);
+  }
+  100% {
+    background-color: #00ce5f;
+    -webkit-clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%, 16% 14%);
+            clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%, 16% 14%);
+  }
+}
+.boxsvg .boxsvgup .upbox p {
+  font-family: "mang3", "Noto Sans KR", sans-serif;
+  font-size: 250px;
+  font-weight: 500;
+  width: 100%;
+  padding: 0 2%;
+  word-spacing: -0.2em;
+  line-height: 0.9;
+}
+.boxsvg .boxsvgup .upbox .introtext01 {
+  top: 0.2em;
+  position: absolute;
+}
+.boxsvg .boxsvgup .upbox .introtext02 {
+  bottom: 0;
+  text-align: right;
+  position: absolute;
+}
+.boxsvg .boxsvgup .upbox .introtextmobile {
+  display: none;
+  position: absolute;
+}
+.boxsvg:hover {
+  cursor: url(../img/cursor.svg) 15 15, progress;
+}
+
+main {
+  display: none;
+}
+main .First {
+  width: 100%;
+  padding: 40px 0 !important;
+  border-bottom: 1px solid;
+  overflow-x: hidden;
+}
+main .First .angular {
+  width: 100%;
+  z-index: -10;
+  position: relative;
+}
+main .First .angular .angularbox {
+  max-width: 100%;
+  height: 800px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-image: url(../img/01.jpg);
+  -webkit-clip-path: polygon(12% 27%, 68% 15%, 92% 34%, 87% 71%, 39% 89%, 7% 65%);
+          clip-path: polygon(12% 27%, 68% 15%, 92% 34%, 87% 71%, 39% 89%, 7% 65%);
+  overflow: hidden;
+}
+main .First .angular .angularbox img {
+  text-align: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .First .angulartext {
+  padding-bottom: 0;
+}
+main .First .angulartext .angularup {
+  text-align: center;
+  /*  @keyframes moves {
+      0%{
+          a{transform: translateX(-50px);}
+          p{transform: translateX(50px);}
+      }
+  } */
+}
+main .First .angulartext .angularup .house {
+  font-size: calc(1.3vw + 12px);
+  line-height: 1.5;
+  padding: 50px 20px;
+  max-width: 750px;
+  margin: 0 auto;
+  font-weight: 700;
+  font-family: "112", "Noto Sans KR", sans-serif;
+}
+main .First .angulartext .angularup .more {
+  border-width: 0px !important;
+  font-size: 22px;
+  font-weight: 600 !important;
+  padding-right: 2em;
+  padding-left: 0.7em;
+  font-family: "mang3";
+}
+main .First .angulartext .angularup .more a {
+  display: flex;
+  justify-content: center;
+}
+main .First .angulartext .angularup .more a p {
+  -webkit-animation: pmove all 300ms ease forwards;
+          animation: pmove all 300ms ease forwards;
+}
+main .First .angulartext .angularup .more:hover {
+  -webkit-animation: movees 300ms ease forwards;
+          animation: movees 300ms ease forwards;
+}
+@-webkit-keyframes movees {
+  0% {
+    transform: translateX(-50px);
+  }
+}
+@keyframes movees {
+  0% {
+    transform: translateX(-50px);
+  }
+}
+@-webkit-keyframes pmove {
+  0% {
+    transform: translateX(50px);
+  }
+}
+@keyframes pmove {
+  0% {
+    transform: translateX(50px);
+  }
+}
+main .Second {
+  width: 100%;
+  padding: 40px 0 !important;
+  border-bottom: 1px solid;
+  overflow-x: hidden;
+}
+main .Second .Secondup {
+  padding: 0 0 0 60px !important;
+  margin-right: 0 !important;
+}
+main .Second .Secondup .Secondupbox {
+  position: relative;
+  width: 23%;
+  padding: 0 10px;
+}
+main .Second .Secondup .Secondupbox .title2 {
+  font-family: "mang4", "Noto Sans KR", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  width: 100%;
+}
+main .Second .Secondup .Secondupbox p {
+  text-align: left;
+  margin-top: 30px;
+  padding-bottom: 40px;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+main .Second .Secondup .List2 {
+  /* .up {
+      background-color: black;
+      color: white;
+  } */
+}
+main .Second .Secondup .List2 .swiper-pagination {
+  /* button {
+
+      font-family: 'mang2', 'Noto Sans KR', sans-serif;
+      font-size: 25px;
+      font-weight: 600;
+      background-color: transparent;
+      border: none;
+      border-top: 1px solid black;
+      padding: 9px 0px 8px 6px;
+  } */
+  /* .up {
+      background-color: black;
+      color: white;
+  } */
+}
+main .Second .Secondup .listride {
+  display: flex;
+}
+main .Second .Secondup .listride .swiper.mySwiper {
+  border-left: 2px solid;
+  width: 75%;
+  margin-right: 0;
+  order: 2;
+}
+main .Second .Secondup .listride .swiper.mySwiper .swiper-wrapper {
+  width: 50%;
+}
+main .Second .Secondup .listride .swiper.mySwiper .swiper-wrapper .swiper-slide {
+  border-right: 2px solid;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+main .Second .Secondup .listride .swiper.mySwiper .swiper-wrapper .swiper-slide .side2title {
+  width: 70%;
+}
+main .Second .Secondup .listride .swiper.mySwiper .swiper-wrapper .swiper-slide .side2title img {
+  width: 30%;
+}
+main .Second .Secondup .listride .swiper.mySwiper .swiper-wrapper .swiper-slide .side2img {
+  width: 70%;
+}
+main .Second .Secondup .listride .swiper.mySwiper .swiper-wrapper .swiper-slide .side2img img {
+  width: 30%;
+}
+main .Second .Secondup .listride .swiper.mySwiper .swiper-wrapper .swiper-slide h2 {
+  font-size: 25px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 900;
+  padding-bottom: 10px;
+}
+main .Second .Secondup .listride .swiper.mySwiper .swiper-wrapper .swiper-slide .side2text {
+  font-size: 15px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+  padding: 16px 0;
+}
+main .Second .Secondup .listride .swiper.mySwiper:hover {
+  cursor: url(../img/swipe-cursor.svg) 15 15, progress;
+}
+main .Second .Secondup .listride .swiper.mySwiper:hover {
+  cursor: url(../img/swipe-cursor.svg) 15 15, progress;
+}
+main .Second .Secondup .listride .swiper.mySwiper:hover {
+  cursor: url(../img/swipe-cursor.svg) 15 15, progress;
+}
+main .Second .Secondup .listride .swiper-pagination {
+  width: 15%;
+  position: relative;
+  top: 0%;
+  left: 0%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  font-family: "mang2", "Noto Sans KR", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  z-index: 5;
+  font-family: "mang2", "Noto Sans KR", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  order: 1;
+}
+main .Second .Secondup .listride .swiper-pagination .swiper-pagination-bullet {
+  width: unset;
+  height: unset;
+  margin: unset !important;
+  padding: 9px 0px 8px 6px;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+  line-height: 1.3;
+  border-radius: unset;
+  border-bottom: 1px solid black;
+  background-color: white !important;
+  color: black !important;
+  text-align: left;
+  opacity: 1;
+}
+main .Second .Secondup .listride .swiper-pagination .swiper-pagination-bullet:hover {
+  background-color: black !important;
+  color: white !important;
+}
+main .third {
+  padding: 0 !important;
+  background-color: #fcf5db;
+  border-bottom: 1px solid;
+  width: 100%;
+  height: 900px;
+}
+main .third .thirdup {
+  padding: 0 0 0 60px !important;
+  margin-right: 0 !important;
+  display: flex;
+  word-break: keep-all;
+}
+main .third .thirdup .title3box {
+  width: 27%;
+  padding: 40px 10px 20px !important;
+  border-right: 1px solid;
+  position: relative;
+}
+main .third .thirdup .title3box .title3 {
+  font-family: "mang4", "Noto Sans KR", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  width: 100%;
+}
+main .third .thirdup .title3box p {
+  text-align: left;
+  margin-top: 30px;
+  padding-bottom: 40px;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+main .third .thirdup .title3box span img {
+  max-width: 100%;
+  padding-right: 60px;
+  position: absolute;
+  bottom: 30px;
+}
+main .third .thirdup .List3box {
+  width: 80%;
+  right: 0;
+  height: 900px;
+  margin-bottom: 0 !important;
+}
+main .third .thirdup .List3box img {
+  width: 100%;
+  height: 55%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .third .thirdup .List3box .List3 {
+  text-align: center;
+  padding: 40px;
+  font-family: "mang2", "Noto Sans KR", sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  height: 12%;
+}
+main .third .thirdup .List3box .detail {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid;
+}
+main .third .thirdup .List3box .detail .detailtext {
+  width: 50%;
+  padding: 46px;
+  text-align: center;
+  height: 10%;
+}
+main .third .thirdup .List3box .detail .detailtext h2 {
+  font-family: "mang2", "Noto Sans KR", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+main .third .thirdup .List3box .detail .detailtext p {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+main .third .thirdup .List3box .detail .detailtext:nth-of-type(1),
+main .third .thirdup .List3box .detail .detailtext:nth-of-type(2) {
+  border-bottom: 1px solid;
+}
+main .third .thirdup .List3box .detail .detailtext:nth-of-type(1),
+main .third .thirdup .List3box .detail .detailtext:nth-of-type(3) {
+  border-right: 1px solid;
+}
+main .third .more3 {
+  position: absolute;
+  right: 0;
+  background-color: #fcf5db;
+  border: 1px solid #000;
+  height: 45px;
+  padding: 5px 10px 0 0;
+}
+main .third .more3 a {
+  font-size: 22px;
+  font-weight: 600 !important;
+  padding-right: 2em;
+  padding-left: 0.7em;
+  font-family: "mang3";
+  display: inline-block;
+}
+main .third .more3 a:hover {
+  -webkit-animation: emove 300ms ease forwards;
+          animation: emove 300ms ease forwards;
+}
+@-webkit-keyframes emove {
+  from {
+    transform: translateX(-50px);
+  }
+}
+@keyframes emove {
+  from {
+    transform: translateX(-50px);
+  }
+}
+main .fourth {
+  width: 100%;
+  padding: 40px 0 !important;
+  border-bottom: 1px solid;
+  overflow-x: hidden;
+}
+main .fourth .fourthup {
+  padding: 0 60px 20px !important;
+  width: 100% !important;
+  max-width: inherit;
+  display: flex;
+}
+main .fourth .fourthup .title4hbox {
+  width: 27%;
+}
+main .fourth .fourthup .title4hbox .title4 {
+  font-family: "mang4", "Noto Sans KR", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  width: 100%;
+}
+main .fourth .fourthup .title4hbox p {
+  width: 80%;
+  text-align: left;
+  margin-top: 30px;
+  padding-bottom: 40px;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+main .fourth .fourthup .List4box {
+  width: 73%;
+  position: relative;
+  margin-top: 10%;
+}
+main .fourth .fourthup .List4box .ja {
+  width: 100%;
+}
+main .fourth .fourthup .List4box .ja .swiper.mySwiper2 .swiper-wrapper .swiper-slide {
+  width: 550px;
+  height: 550px;
+}
+main .fourth .fourthup .List4box .ja .swiper.mySwiper2 .swiper-wrapper .swiper-slide a {
+  width: 100%;
+  height: 100%;
+}
+main .fourth .fourthup .List4box .ja .swiper.mySwiper2 .swiper-wrapper .swiper-slide a img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 400px;
+  height: 400px;
+}
+main .fourth .fourthup .List4box .ja .swiper.mySwiper2 .swiper-wrapper .swiper-slide a::after {
+  background-image: url(../img/journal-icon-01.svg);
+  content: "";
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #09c15e;
+  background-size: 100%;
+}
+main .fourth .fourthup .List4box .ja .swiper.mySwiper2 .swiper-wrapper .swiper-slide h2 {
+  padding: 3px 0;
+  font-family: "mang4", "Noto Sans KR", sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  width: 100%;
+}
+main .fourth .fourthup .List4box .ja .swiper.mySwiper2 .swiper-wrapper .swiper-slide span {
+  text-align: left;
+  margin-top: 30px;
+  padding-bottom: 40px;
+  font-weight: 400;
+  font-size: 17px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+main .fourth .fourthup .List4box .ja:hover {
+  cursor: url(../img/swipe-cursor.svg) 15 15, progress;
+  z-index: 10;
+}
+main .fourth .fourthup .List4box .more4 {
+  position: absolute;
+  right: 10px;
+  top: -90px;
+}
+main .fourth .fourthup .List4box .more4 a {
+  font-size: 22px;
+  font-weight: 600 !important;
+  padding-right: 2em;
+  padding-left: 0.7em;
+  font-family: "mang3";
+}
+main .Fifth {
+  width: 100%;
+  padding: 40px 0 !important;
+  background-color: #e5f0f3;
+  border-bottom: 1px solid;
+}
+main .Fifth .Fifthup {
+  padding: 0 60px 20px !important;
+  width: 100% !important;
+  max-width: inherit;
+  display: flex;
+}
+main .Fifth .Fifthup .title5 {
+  width: 27%;
+  font-family: "mang4", "Noto Sans KR", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+}
+main .Fifth .Fifthup #Accordion_wrap {
+  width: 70%;
+  word-break: keep-all;
+}
+main .Fifth .Fifthup #Accordion_wrap .content {
+  padding: 20px 0 15px;
+  border: 0;
+  background-color: transparent !important;
+  /* h5 {
+      font-family: 'mang4', 'Noto Sans KR', sans-serif;
+      font-size: 25px;
+      font-weight: 900;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      img {
+          display: block;
+      }
+  }
+
+  .menubars {
+      display: none;
+  }
+
+  div {
+      font-size: 15px;
+      font-family: 'Noto Sans KR', sans-serif;
+      padding: 15px 15px 0 0;
+      max-width: 810px;
+  } */
+}
+main .Fifth .Fifthup #Accordion_wrap .content .que:first-child {
+  border-top: 1px solid black;
+  padding-top: 20px;
+}
+main .Fifth .Fifthup #Accordion_wrap .content .que {
+  font-family: "mang4", "Noto Sans KR", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  cursor: pointer;
+}
+main .Fifth .Fifthup #Accordion_wrap .content .que .arrow-wrap {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+}
+main .Fifth .Fifthup #Accordion_wrap .content .que .arrow-wrap .arrow-top {
+  display: none;
+}
+main .Fifth .Fifthup #Accordion_wrap .content .que .arrow-wrap .arrow-top.on {
+  display: block;
+}
+main .Fifth .Fifthup #Accordion_wrap .content .que .arrow-wrap .arrow-bottom {
+  display: block;
+}
+main .Fifth .Fifthup #Accordion_wrap .content .que .arrow-wrap .arrow-bottom.on {
+  display: none;
+}
+main .Fifth .Fifthup #Accordion_wrap .content .anw {
+  display: none;
+  overflow: hidden;
+  font-size: 15px;
+  font-family: "Noto Sans KR", sans-serif;
+  padding: 15px 15px 0 0;
+  max-width: 810px;
+}
+main .sixth {
+  padding: 40px 0 !important;
+  background-color: #d5fcdf;
+}
+main .sixth .sixthup {
+  padding: 0 60px 20px !important;
+  width: 100% !important;
+  max-width: inherit;
+  position: relative;
+}
+main .sixth .sixthup .sixthbox {
+  width: 60%;
+}
+main .sixth .sixthup .sixthbox .title6 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  padding-bottom: 45px;
+}
+main .sixth .sixthup .sixthbox .List6box {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+main .sixth .sixthup .sixthbox .List6box .emailaddress {
+  float: left;
+  padding-right: 5px;
+  width: 48%;
+}
+main .sixth .sixthup .sixthbox .List6box .emailaddress input {
+  width: 100%;
+  padding: 15px 14px;
+  border: solid 2px #1f1e1d;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 0 !important;
+  padding-bottom: 5px;
+}
+main .sixth .sixthup .sixthbox .List6box .name {
+  padding-right: 0px;
+  padding-bottom: 10px;
+}
+main .sixth .sixthup .sixthbox .List6box .name input {
+  width: 48%;
+  padding: 15px 14px;
+  border: solid 2px #1f1e1d;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 0 !important;
+  padding-bottom: 5px;
+}
+main .sixth .sixthup .sixthbox .List6box .checkbox {
+  display: flex;
+}
+main .sixth .sixthup .sixthbox .List6box .checkbox .green {
+  color: #00b453;
+}
+main .sixth .sixthup .sixthbox .List6box .save {
+  padding-top: 5px;
+}
+main .sixth .sixthup .sixthbox .List6box .save button {
+  background-color: #1f1e1d;
+  font-size: 20px;
+  font-weight: 700;
+  color: #d5fcdf !important;
+  width: 96%;
+  height: 52px;
+  line-height: 56px;
+}
+main .sixth .sixthup .sixthimg {
+  width: 40%;
+}
+main .sixth .sixthup .sixthimg img {
+  position: absolute;
+  bottom: 0;
+  right: 8%;
+  width: 100%;
+  max-width: 180px;
+}
+main .seventh {
+  padding: 40px 0px !important;
+  background-color: #1f1e1d;
+  color: white;
+  height: 300px;
+}
+main .seventh .seventhup {
+  padding: 0 60px 20px !important;
+  width: 100% !important;
+  max-width: inherit;
+  display: flex;
+}
+main .seventh .seventhup .seventhbox {
+  width: 30%;
+}
+main .seventh .seventhup .seventhtext {
+  width: 60%;
+  position: relative;
+}
+main .seventh .seventhup .seventhtext .text7 {
+  width: 40%;
+  font-family: "mang4";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 2;
+}
+main .seventh .seventhup .seventhtext .more7 {
+  position: absolute;
+  top: 0;
+  right: -90px;
+}
+main .seventh .seventhup .seventhtext .more7 a {
+  color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "mang3";
+}
+@media (min-width: 601px) and (max-width: 980px) {
+  /* 브라우저 사이즈980px 일때  */
+  body {
+    padding-top: 75px;
+  }
+  .boxsvg {
+    transform: translateY(0px);
+    transition: 1s;
+    opacity: 1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    z-index: 99;
+  }
+  .boxsvg .boxsvgup {
+    top: 100px;
+    left: 0;
+    z-index: 99;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+  }
+  .boxsvg .boxsvgup .upbox {
+    width: 100%;
+  }
+  .boxsvg .boxsvgup .upbox .introsvg {
+    padding-top: 45px;
+  }
+  .boxsvg .boxsvgup .upbox .introsvg .svg1 {
+    width: 100%;
+    height: 800px;
+    background-color: rgb(204, 204, 204);
+    -webkit-animation: svgg 4s infinite linear;
+            animation: svgg 4s infinite linear;
+    -webkit-clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%);
+            clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%);
+  }
+  @-webkit-keyframes svgg {
+    0% {
+      background-color: #00ce5f;
+      -webkit-clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%, 16% 14%);
+              clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%, 16% 14%);
+    }
+    25% {
+      background-color: #308aff;
+      -webkit-clip-path: polygon(50% 21%, 68% 0, 98% 21%, 93% 82%, 55% 68%, 34% 98%, 3% 59%, 16% 14%);
+              clip-path: polygon(50% 21%, 68% 0, 98% 21%, 93% 82%, 55% 68%, 34% 98%, 3% 59%, 16% 14%);
+    }
+    50% {
+      background-color: #cccccc;
+      -webkit-clip-path: polygon(61% 3%, 97% 25%, 90% 72%, 56% 96%, 29% 90%, 26% 68%, 3% 54%, 12% 22%);
+              clip-path: polygon(61% 3%, 97% 25%, 90% 72%, 56% 96%, 29% 90%, 26% 68%, 3% 54%, 12% 22%);
+    }
+    75% {
+      background-color: #308aff;
+      -webkit-clip-path: polygon(50% 21%, 68% 0, 98% 21%, 93% 82%, 55% 68%, 34% 98%, 3% 59%, 16% 14%);
+              clip-path: polygon(50% 21%, 68% 0, 98% 21%, 93% 82%, 55% 68%, 34% 98%, 3% 59%, 16% 14%);
+    }
+    100% {
+      background-color: #00ce5f;
+      -webkit-clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%, 16% 14%);
+              clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%, 16% 14%);
+    }
+  }
+  @keyframes svgg {
+    0% {
+      background-color: #00ce5f;
+      -webkit-clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%, 16% 14%);
+              clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%, 16% 14%);
+    }
+    25% {
+      background-color: #308aff;
+      -webkit-clip-path: polygon(50% 21%, 68% 0, 98% 21%, 93% 82%, 55% 68%, 34% 98%, 3% 59%, 16% 14%);
+              clip-path: polygon(50% 21%, 68% 0, 98% 21%, 93% 82%, 55% 68%, 34% 98%, 3% 59%, 16% 14%);
+    }
+    50% {
+      background-color: #cccccc;
+      -webkit-clip-path: polygon(61% 3%, 97% 25%, 90% 72%, 56% 96%, 29% 90%, 26% 68%, 3% 54%, 12% 22%);
+              clip-path: polygon(61% 3%, 97% 25%, 90% 72%, 56% 96%, 29% 90%, 26% 68%, 3% 54%, 12% 22%);
+    }
+    75% {
+      background-color: #308aff;
+      -webkit-clip-path: polygon(50% 21%, 68% 0, 98% 21%, 93% 82%, 55% 68%, 34% 98%, 3% 59%, 16% 14%);
+              clip-path: polygon(50% 21%, 68% 0, 98% 21%, 93% 82%, 55% 68%, 34% 98%, 3% 59%, 16% 14%);
+    }
+    100% {
+      background-color: #00ce5f;
+      -webkit-clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%, 16% 14%);
+              clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%, 16% 14%);
+    }
+  }
+  .boxsvg .boxsvgup .upbox p {
+    font-family: "mang3", "Noto Sans KR", sans-serif;
+    font-size: 250px;
+    font-weight: 500;
+    width: 100%;
+    padding: 0 2%;
+    word-spacing: -0.2em;
+    line-height: 0.9;
+  }
+  .boxsvg .boxsvgup .upbox .introtext01 {
+    top: 0.2em;
+    position: absolute;
+    font-size: 200px;
+  }
+  .boxsvg .boxsvgup .upbox .introtext02 {
+    bottom: 0;
+    text-align: right;
+    position: absolute;
+    font-size: 200px;
+  }
+  .boxsvg .boxsvgup .upbox .introtextmobile {
+    display: none;
+    position: absolute;
+  }
+  .boxsvg:hover {
+    cursor: url(../img/cursor.svg) 15 15, progress;
+  }
+  main {
+    display: none;
+  }
+  main .First {
+    width: 100%;
+    padding: 40px 0 !important;
+    border-bottom: 1px solid;
+    overflow-x: hidden;
+  }
+  main .First .angular {
+    width: 100%;
+  }
+  main .First .angular .angularbox {
+    max-width: 100%;
+    height: 600px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-image: url(../img/01.jpg);
+    -webkit-clip-path: polygon(12% 27%, 68% 15%, 92% 34%, 87% 71%, 39% 89%, 7% 65%);
+            clip-path: polygon(12% 27%, 68% 15%, 92% 34%, 87% 71%, 39% 89%, 7% 65%);
+    overflow: hidden;
+  }
+  main .First .angular .angularbox img {
+    text-align: center;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .First .angulartext {
+    padding-bottom: 0;
+  }
+  main .First .angulartext .angularup {
+    text-align: center;
+    /*  @keyframes moves {
+        0%{
+            a{transform: translateX(-50px);}
+            p{transform: translateX(50px);}
+        }
+    } */
+  }
+  main .First .angulartext .angularup .house {
+    font-size: calc(1.3vw + 12px);
+    line-height: 1.5;
+    padding: 30px 15px;
+    max-width: 750px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-family: "112", "Noto Sans KR", sans-serif;
+  }
+  main .First .angulartext .angularup .more {
+    border-width: 0px !important;
+    font-size: 22px;
+    font-weight: 600 !important;
+    padding-right: 2em;
+    padding-left: 0.7em;
+    font-family: "mang3";
+  }
+  main .First .angulartext .angularup .more a {
+    display: flex;
+    justify-content: center;
+  }
+  main .First .angulartext .angularup .more a p {
+    -webkit-animation: pmove all 300ms ease forwards;
+            animation: pmove all 300ms ease forwards;
+  }
+  main .First .angulartext .angularup .more:hover {
+    -webkit-animation: movees 300ms ease forwards;
+            animation: movees 300ms ease forwards;
+  }
+  @-webkit-keyframes movees {
+    0% {
+      transform: translateX(-50px);
+    }
+  }
+  @keyframes movees {
+    0% {
+      transform: translateX(-50px);
+    }
+  }
+  @-webkit-keyframes pmove {
+    0% {
+      transform: translateX(50px);
+    }
+  }
+  @keyframes pmove {
+    0% {
+      transform: translateX(50px);
+    }
+  }
+  main .Second {
+    width: 100%;
+    padding: 40px 0 !important;
+    border-bottom: 1px solid;
+    overflow-x: hidden;
+  }
+  main .Second .Secondup {
+    padding: 0 0 0 0px !important;
+    margin-right: 0 !important;
+  }
+  main .Second .Secondup .Secondupbox {
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    padding-left: 16px;
+  }
+  main .Second .Secondup .Secondupbox .title2 {
+    font-family: "mang4", "Noto Sans KR", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    width: 100%;
+  }
+  main .Second .Secondup .Secondupbox p {
+    text-align: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+  main .Second .Secondup .List2 {
+    padding-left: 16px;
+    /* .up {
+        background-color: black;
+        color: white;
+    } */
+  }
+  main .Second .Secondup .List2 .swiper-pagination {
+    /* button {
+
+        font-family: 'mang2', 'Noto Sans KR', sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+        background-color: transparent;
+        border: none;
+        border-top: 1px solid black;
+        padding: 9px 0px 8px 6px;
+    } */
+    /* .up {
+        background-color: black;
+        color: white;
+    } */
+  }
+  main .Second .Secondup .listride {
+    display: flex;
+    flex-direction: column;
+  }
+  main .Second .Secondup .listride .swiper.mySwiper {
+    width: 100%;
+    margin-right: 0;
+    order: 2;
+  }
+  main .Second .Secondup .listride .swiper.mySwiper .swiper-wrapper {
+    width: 50%;
+  }
+  main .Second .Secondup .listride .swiper.mySwiper .swiper-wrapper .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    align-items: center;
+  }
+  main .Second .Secondup .listride .swiper.mySwiper .swiper-wrapper .swiper-slide .side2title {
+    width: 50%;
+  }
+  main .Second .Secondup .listride .swiper.mySwiper .swiper-wrapper .swiper-slide .side2title img {
+    width: 30%;
+  }
+  main .Second .Secondup .listride .swiper.mySwiper .swiper-wrapper .swiper-slide .side2img {
+    max-height: 50vh;
+    width: auto;
+  }
+  main .Second .Secondup .listride .swiper.mySwiper .swiper-wrapper .swiper-slide .side2img img {
+    width: 30%;
+  }
+  main .Second .Secondup .listride .swiper.mySwiper .swiper-wrapper .swiper-slide h2 {
+    font-size: 25px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 900;
+    padding-bottom: 10px;
+  }
+  main .Second .Secondup .listride .swiper.mySwiper .swiper-wrapper .swiper-slide .side2text {
+    font-size: 15px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700;
+    padding: 16px 0;
+  }
+  main .Second .Secondup .listride .swiper.mySwiper:hover {
+    cursor: url(../img/swipe-cursor.svg) 15 15, progress;
+  }
+  main .Second .Secondup .listride .swiper-pagination {
+    width: 100vw;
+    margin: 0 0 40px 0;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    font-family: "mang2", "Noto Sans KR", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    z-index: 5;
+    font-family: "mang2", "Noto Sans KR", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    order: 1;
+    padding-left: 16px;
+  }
+  main .Second .Secondup .listride .swiper-pagination .swiper-pagination-bullet {
+    width: unset;
+    height: unset;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    line-height: 1.3;
+    border-radius: unset;
+    background-color: white !important;
+    color: black !important;
+    opacity: 1;
+    padding: 7px 15px 5px;
+    text-align: center;
+    border: 1px solid black;
+    white-space: nowrap;
+  }
+  main .Second .Secondup .listride .swiper-pagination .swiper-pagination-bullet:hover {
+    background-color: black !important;
+    color: white !important;
+  }
+  main .third {
+    padding: 0 !important;
+    background-color: #fcf5db;
+    border-bottom: 1px solid;
+    width: 100%;
+    height: 1300px;
+  }
+  main .third .thirdup {
+    padding: 0 !important;
+    margin-right: 0 !important;
+    display: flex;
+    word-break: keep-all;
+    flex-direction: column;
+  }
+  main .third .thirdup .title3box {
+    width: 45%;
+    padding-left: 16px;
+    border: none;
+    position: relative;
+  }
+  main .third .thirdup .title3box .title3 {
+    font-family: "mang4", "Noto Sans KR", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    width: 100%;
+  }
+  main .third .thirdup .title3box p {
+    text-align: left;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+  main .third .thirdup .title3box span {
+    width: 100%;
+  }
+  main .third .thirdup .title3box span img {
+    max-width: 100%;
+    padding-right: 60px;
+    position: absolute;
+    bottom: -1150px;
+    left: 335px;
+  }
+  main .third .thirdup .List3box {
+    width: 100%;
+    right: 0;
+    height: 900px;
+    margin-bottom: 0 !important;
+  }
+  main .third .thirdup .List3box img {
+    width: 100%;
+    height: 40%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .third .thirdup .List3box .List3 {
+    text-align: center;
+    padding: 40px;
+    font-family: "mang2", "Noto Sans KR", sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    height: 12%;
+  }
+  main .third .thirdup .List3box .detail {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+  }
+  main .third .thirdup .List3box .detail .detailtext {
+    width: 50%;
+    padding: 46px;
+    text-align: center;
+    height: 10%;
+  }
+  main .third .thirdup .List3box .detail .detailtext h2 {
+    font-family: "mang2", "Noto Sans KR", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  main .third .thirdup .List3box .detail .detailtext p {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+  }
+  main .third .thirdup .List3box .detail .detailtext:nth-of-type(1),
+main .third .thirdup .List3box .detail .detailtext:nth-of-type(2) {
+    border-bottom: 1px solid;
+  }
+  main .third .thirdup .List3box .detail .detailtext:nth-of-type(1),
+main .third .thirdup .List3box .detail .detailtext:nth-of-type(3) {
+    border-right: 1px solid;
+  }
+  main .third .more3 {
+    position: absolute;
+    right: 0;
+    border: none;
+  }
+  main .third .more3 a {
+    font-size: 22px;
+    font-weight: 600 !important;
+    padding-right: 2em;
+    padding-left: 0.7em;
+    font-family: "mang3";
+    display: inline-block;
+  }
+  main .third .more3 a:hover {
+    -webkit-animation: emove 300ms ease forwards;
+            animation: emove 300ms ease forwards;
+  }
+  @-webkit-keyframes emove {
+    from {
+      transform: translateX(-50px);
+    }
+  }
+  @keyframes emove {
+    from {
+      transform: translateX(-50px);
+    }
+  }
+  main .fourth {
+    width: 100%;
+    padding: 40px 0 !important;
+    border-bottom: 1px solid;
+    overflow-x: hidden;
+  }
+  main .fourth .fourthup {
+    padding: 0 17px !important;
+    width: 100% !important;
+    max-width: inherit;
+    display: flex;
+    flex-direction: column;
+  }
+  main .fourth .fourthup .title4hbox {
+    width: 100%;
+  }
+  main .fourth .fourthup .title4hbox .title4 {
+    font-family: "mang4", "Noto Sans KR", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    width: 100%;
+  }
+  main .fourth .fourthup .title4hbox p {
+    width: 80%;
+    text-align: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+  main .fourth .fourthup .List4box {
+    width: 100%;
+    position: relative;
+    margin-top: 5%;
+  }
+  main .fourth .fourthup .List4box .ja {
+    width: 100%;
+  }
+  main .fourth .fourthup .List4box .ja .swiper.mySwiper2 .swiper-wrapper .swiper-slide {
+    width: 550px;
+    height: 400px;
+  }
+  main .fourth .fourthup .List4box .ja .swiper.mySwiper2 .swiper-wrapper .swiper-slide a {
+    width: 100%;
+    height: 100%;
+  }
+  main .fourth .fourthup .List4box .ja .swiper.mySwiper2 .swiper-wrapper .swiper-slide a img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 300px;
+    height: 300px;
+  }
+  main .fourth .fourthup .List4box .ja .swiper.mySwiper2 .swiper-wrapper .swiper-slide a::after {
+    background-image: url(../img/journal-icon-01.svg);
+    content: "";
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #09c15e;
+    background-size: 100%;
+  }
+  main .fourth .fourthup .List4box .ja .swiper.mySwiper2 .swiper-wrapper .swiper-slide h2 {
+    padding: 3px 0;
+    font-family: "mang4", "Noto Sans KR", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+  }
+  main .fourth .fourthup .List4box .ja .swiper.mySwiper2 .swiper-wrapper .swiper-slide span {
+    text-align: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+  main .fourth .fourthup .List4box .ja:hover {
+    cursor: url(../img/swipe-cursor.svg) 15 15, progress;
+    z-index: 10;
+  }
+  main .fourth .fourthup .List4box .more4 {
+    position: absolute;
+    right: 4px;
+    top: -113px;
+  }
+  main .fourth .fourthup .List4box .more4 a {
+    font-size: 22px;
+    font-weight: 600 !important;
+    padding-right: 1em;
+    padding-left: 0.7em;
+    font-family: "mang3";
+  }
+  main .Fifth {
+    width: 100%;
+    padding: 40px 0 !important;
+    background-color: #e5f0f3;
+    border-bottom: 1px solid;
+  }
+  main .Fifth .Fifthup {
+    padding: 0 16px 20px !important;
+    width: 100% !important;
+    max-width: inherit;
+    display: flex;
+    flex-direction: column;
+  }
+  main .Fifth .Fifthup .title5 {
+    width: 100%;
+    font-family: "mang4", "Noto Sans KR", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+  }
+  main .Fifth .Fifthup #Accordion_wrap {
+    width: 100%;
+    word-break: keep-all;
+  }
+  main .Fifth .Fifthup #Accordion_wrap .content {
+    padding: 20px 0 15px;
+    border: 0;
+    background-color: transparent !important;
+    /* h5 {
+        font-family: 'mang4', 'Noto Sans KR', sans-serif;
+        font-size: 25px;
+        font-weight: 900;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            display: block;
+        }
+    }
+
+    .menubars {
+        display: none;
+    }
+
+    div {
+        font-size: 15px;
+        font-family: 'Noto Sans KR', sans-serif;
+        padding: 15px 15px 0 0;
+        max-width: 810px;
+    } */
+  }
+  main .Fifth .Fifthup #Accordion_wrap .content .que:first-child {
+    border-top: 1px solid black;
+    padding-top: 20px;
+  }
+  main .Fifth .Fifthup #Accordion_wrap .content .que {
+    font-family: "mang4", "Noto Sans KR", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+  }
+  main .Fifth .Fifthup #Accordion_wrap .content .que .arrow-wrap {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+  }
+  main .Fifth .Fifthup #Accordion_wrap .content .que .arrow-wrap .arrow-top {
+    display: none;
+  }
+  main .Fifth .Fifthup #Accordion_wrap .content .que .arrow-wrap .arrow-top.on {
+    display: block;
+  }
+  main .Fifth .Fifthup #Accordion_wrap .content .que .arrow-wrap .arrow-bottom {
+    display: block;
+  }
+  main .Fifth .Fifthup #Accordion_wrap .content .que .arrow-wrap .arrow-bottom.on {
+    display: none;
+  }
+  main .Fifth .Fifthup #Accordion_wrap .content .anw {
+    display: none;
+    overflow: hidden;
+    font-size: 15px;
+    font-family: "Noto Sans KR", sans-serif;
+    padding: 15px 15px 0 0;
+    max-width: 810px;
+  }
+  main .sixth {
+    padding: 40px 0 !important;
+    background-color: #d5fcdf;
+  }
+  main .sixth .sixthup {
+    padding: 0 16px 20px !important;
+    width: 100% !important;
+    max-width: inherit;
+    position: relative;
+  }
+  main .sixth .sixthup .sixthbox {
+    width: 60%;
+  }
+  main .sixth .sixthup .sixthbox .title6 {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 45px;
+  }
+  main .sixth .sixthup .sixthbox .List6box {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  main .sixth .sixthup .sixthbox .List6box .emailaddress {
+    float: left;
+    padding-right: 5px;
+    width: 48%;
+  }
+  main .sixth .sixthup .sixthbox .List6box .emailaddress input {
+    width: 100%;
+    padding: 15px 14px;
+    border: solid 2px #1f1e1d;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 0 !important;
+    padding-bottom: 5px;
+  }
+  main .sixth .sixthup .sixthbox .List6box .name {
+    padding-right: 0px;
+    padding-bottom: 10px;
+  }
+  main .sixth .sixthup .sixthbox .List6box .name input {
+    width: 48%;
+    padding: 15px 14px;
+    border: solid 2px #1f1e1d;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 0 !important;
+    padding-bottom: 5px;
+  }
+  main .sixth .sixthup .sixthbox .List6box .checkbox {
+    display: flex;
+  }
+  main .sixth .sixthup .sixthbox .List6box .checkbox .green {
+    color: #00b453;
+  }
+  main .sixth .sixthup .sixthbox .List6box .save {
+    padding-top: 5px;
+  }
+  main .sixth .sixthup .sixthbox .List6box .save button {
+    background-color: #1f1e1d;
+    font-size: 20px;
+    font-weight: 700;
+    color: #d5fcdf !important;
+    width: 96%;
+    height: 52px;
+    line-height: 56px;
+  }
+  main .sixth .sixthup .sixthimg {
+    width: 40%;
+  }
+  main .sixth .sixthup .sixthimg img {
+    position: absolute;
+    bottom: 0;
+    right: 8%;
+    width: 100%;
+    max-width: 180px;
+  }
+  main .seventh {
+    padding: 40px 0px !important;
+    background-color: #1f1e1d;
+    color: white;
+    height: 300px;
+  }
+  main .seventh .seventhup {
+    padding: 0 16px 20px !important;
+    width: 100% !important;
+    max-width: inherit;
+    display: flex;
+    flex-direction: column;
+  }
+  main .seventh .seventhup .seventhbox {
+    width: 30%;
+  }
+  main .seventh .seventhup .seventhtext {
+    width: 60%;
+    position: relative;
+  }
+  main .seventh .seventhup .seventhtext .text7 {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 100%;
+    font-family: "mang3";
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 2;
+  }
+  main .seventh .seventhup .seventhtext .more7 {
+    position: absolute;
+    top: -70px;
+    right: -380px;
+  }
+  main .seventh .seventhup .seventhtext .more7 a {
+    color: white;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "mang3";
+  }
+}
+@media (max-width: 600px) {
+  /* 브라우저 사이즈980px 일때  */
+  body {
+    padding-top: 75px;
+  }
+  .boxsvg {
+    transform: translateY(0px);
+    transition: 1s;
+    opacity: 1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    z-index: 99;
+  }
+  .boxsvg .boxsvgup {
+    top: 100px;
+    left: 0;
+    z-index: 99;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+  }
+  .boxsvg .boxsvgup .upbox {
+    width: 100%;
+  }
+  .boxsvg .boxsvgup .upbox .introsvg {
+    padding-top: 45px;
+  }
+  .boxsvg .boxsvgup .upbox .introsvg .svg1 {
+    width: 100%;
+    height: 800px;
+    background-color: rgb(204, 204, 204);
+    -webkit-animation: svgg 4s infinite linear;
+            animation: svgg 4s infinite linear;
+    -webkit-clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%);
+            clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%);
+  }
+  @-webkit-keyframes svgg {
+    0% {
+      background-color: #00ce5f;
+      -webkit-clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%, 16% 14%);
+              clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%, 16% 14%);
+    }
+    25% {
+      background-color: #308aff;
+      -webkit-clip-path: polygon(50% 21%, 68% 0, 98% 21%, 93% 82%, 55% 68%, 34% 98%, 3% 59%, 16% 14%);
+              clip-path: polygon(50% 21%, 68% 0, 98% 21%, 93% 82%, 55% 68%, 34% 98%, 3% 59%, 16% 14%);
+    }
+    50% {
+      background-color: #cccccc;
+      -webkit-clip-path: polygon(61% 3%, 97% 25%, 90% 72%, 56% 96%, 29% 90%, 26% 68%, 3% 54%, 12% 22%);
+              clip-path: polygon(61% 3%, 97% 25%, 90% 72%, 56% 96%, 29% 90%, 26% 68%, 3% 54%, 12% 22%);
+    }
+    75% {
+      background-color: #308aff;
+      -webkit-clip-path: polygon(50% 21%, 68% 0, 98% 21%, 93% 82%, 55% 68%, 34% 98%, 3% 59%, 16% 14%);
+              clip-path: polygon(50% 21%, 68% 0, 98% 21%, 93% 82%, 55% 68%, 34% 98%, 3% 59%, 16% 14%);
+    }
+    100% {
+      background-color: #00ce5f;
+      -webkit-clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%, 16% 14%);
+              clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%, 16% 14%);
+    }
+  }
+  @keyframes svgg {
+    0% {
+      background-color: #00ce5f;
+      -webkit-clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%, 16% 14%);
+              clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%, 16% 14%);
+    }
+    25% {
+      background-color: #308aff;
+      -webkit-clip-path: polygon(50% 21%, 68% 0, 98% 21%, 93% 82%, 55% 68%, 34% 98%, 3% 59%, 16% 14%);
+              clip-path: polygon(50% 21%, 68% 0, 98% 21%, 93% 82%, 55% 68%, 34% 98%, 3% 59%, 16% 14%);
+    }
+    50% {
+      background-color: #cccccc;
+      -webkit-clip-path: polygon(61% 3%, 97% 25%, 90% 72%, 56% 96%, 29% 90%, 26% 68%, 3% 54%, 12% 22%);
+              clip-path: polygon(61% 3%, 97% 25%, 90% 72%, 56% 96%, 29% 90%, 26% 68%, 3% 54%, 12% 22%);
+    }
+    75% {
+      background-color: #308aff;
+      -webkit-clip-path: polygon(50% 21%, 68% 0, 98% 21%, 93% 82%, 55% 68%, 34% 98%, 3% 59%, 16% 14%);
+              clip-path: polygon(50% 21%, 68% 0, 98% 21%, 93% 82%, 55% 68%, 34% 98%, 3% 59%, 16% 14%);
+    }
+    100% {
+      background-color: #00ce5f;
+      -webkit-clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%, 16% 14%);
+              clip-path: polygon(24% 13%, 77% 2%, 100% 60%, 77% 74%, 65% 100%, 37% 80%, 3% 76%, 16% 14%);
+    }
+  }
+  .boxsvg .boxsvgup .upbox p {
+    font-family: "mang3", "Noto Sans KR", sans-serif;
+    font-size: 250px;
+    font-weight: 500;
+    width: 100%;
+    padding: 0 2%;
+    word-spacing: -0.2em;
+    line-height: 0.9;
+  }
+  .boxsvg .boxsvgup .upbox .introtext01 {
+    top: 321px;
+    left: 79px;
+    position: absolute;
+    font-size: 110px;
+  }
+  .boxsvg .boxsvgup .upbox .introtext02 {
+    bottom: 215px;
+    text-align: center;
+    position: absolute;
+    font-size: 110px;
+    white-space: nowarp;
+    left: 0px;
+  }
+  .boxsvg .boxsvgup .upbox .introtextmobile {
+    display: none;
+    position: absolute;
+  }
+  .boxsvg:hover {
+    cursor: url(../img/cursor.svg) 15 15, progress;
+  }
+  main {
+    display: none;
+  }
+  main .First {
+    width: 100%;
+    padding: 40px 0 !important;
+    border-bottom: 1px solid;
+    overflow-x: hidden;
+  }
+  main .First .angular {
+    width: 100%;
+  }
+  main .First .angular .angularbox {
+    margin: 0 auto;
+    max-width: 100%;
+    height: 490px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-image: url(../img/01.jpg);
+    -webkit-clip-path: polygon(12% 27%, 68% 15%, 92% 34%, 87% 71%, 39% 89%, 7% 65%);
+            clip-path: polygon(12% 27%, 68% 15%, 92% 34%, 87% 71%, 39% 89%, 7% 65%);
+    overflow: hidden;
+  }
+  main .First .angular .angularbox img {
+    text-align: center;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .First .angulartext {
+    padding-bottom: 0;
+  }
+  main .First .angulartext .angularup {
+    text-align: center;
+    /*  @keyframes moves {
+        0%{
+            a{transform: translateX(-50px);}
+            p{transform: translateX(50px);}
+        }
+    } */
+  }
+  main .First .angulartext .angularup .house {
+    font-size: calc(1.3vw + 12px);
+    line-height: 1.5;
+    padding: 30px 15px;
+    max-width: 750px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-family: "112", "Noto Sans KR", sans-serif;
+  }
+  main .First .angulartext .angularup .more {
+    border-width: 0px !important;
+    font-size: 22px;
+    font-weight: 600 !important;
+    padding-right: 2em;
+    padding-left: 0.7em;
+    font-family: "mang3";
+  }
+  main .First .angulartext .angularup .more a {
+    display: flex;
+    justify-content: center;
+  }
+  main .First .angulartext .angularup .more a p {
+    -webkit-animation: pmove all 300ms ease forwards;
+            animation: pmove all 300ms ease forwards;
+  }
+  main .First .angulartext .angularup .more:hover {
+    -webkit-animation: movees 300ms ease forwards;
+            animation: movees 300ms ease forwards;
+  }
+  @-webkit-keyframes movees {
+    0% {
+      transform: translateX(-50px);
+    }
+  }
+  @keyframes movees {
+    0% {
+      transform: translateX(-50px);
+    }
+  }
+  @-webkit-keyframes pmove {
+    0% {
+      transform: translateX(50px);
+    }
+  }
+  @keyframes pmove {
+    0% {
+      transform: translateX(50px);
+    }
+  }
+  main .Second {
+    width: 100%;
+    padding: 40px 0 !important;
+    border-bottom: 1px solid;
+    overflow-x: hidden;
+    z-index: 0;
+    position: relative;
+  }
+  main .Second .Secondup {
+    padding: 0 0 0 0px !important;
+    margin-right: 0 !important;
+  }
+  main .Second .Secondup .Secondupbox {
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    padding-left: 16px;
+  }
+  main .Second .Secondup .Secondupbox .title2 {
+    font-family: "mang4", "Noto Sans KR", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    width: 100%;
+  }
+  main .Second .Secondup .Secondupbox p {
+    text-align: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+  main .Second .Secondup .List2 {
+    padding-left: 16px;
+    /* .up {
+        background-color: black;
+        color: white;
+    } */
+  }
+  main .Second .Secondup .List2 .swiper-pagination {
+    /* button {
+
+        font-family: 'mang2', 'Noto Sans KR', sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+        background-color: transparent;
+        border: none;
+        border-top: 1px solid black;
+        padding: 9px 0px 8px 6px;
+    } */
+    /* .up {
+        background-color: black;
+        color: white;
+    } */
+  }
+  main .Second .Secondup .listride {
+    display: flex;
+    flex-direction: column;
+  }
+  main .Second .Secondup .listride .swiper.mySwiper {
+    width: 100%;
+    margin-right: 0;
+    order: 2;
+    border-left: none;
+  }
+  main .Second .Secondup .listride .swiper.mySwiper .swiper-wrapper {
+    width: 50%;
+  }
+  main .Second .Secondup .listride .swiper.mySwiper .swiper-wrapper .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    align-items: center;
+    border-right: none;
+  }
+  main .Second .Secondup .listride .swiper.mySwiper .swiper-wrapper .swiper-slide .side2title {
+    width: 50%;
+  }
+  main .Second .Secondup .listride .swiper.mySwiper .swiper-wrapper .swiper-slide .side2title img {
+    width: 30%;
+  }
+  main .Second .Secondup .listride .swiper.mySwiper .swiper-wrapper .swiper-slide .side2img {
+    max-height: 50vh;
+    width: auto;
+  }
+  main .Second .Secondup .listride .swiper.mySwiper .swiper-wrapper .swiper-slide .side2img img {
+    width: 30%;
+  }
+  main .Second .Secondup .listride .swiper.mySwiper .swiper-wrapper .swiper-slide h2 {
+    font-size: 25px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 900;
+    padding: 13px 0;
+  }
+  main .Second .Secondup .listride .swiper.mySwiper .swiper-wrapper .swiper-slide .side2text {
+    font-size: 15px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700;
+    padding: 16px 0;
+  }
+  main .Second .Secondup .listride .swiper.mySwiper:hover {
+    cursor: url(../img/swipe-cursor.svg) 15 15, progress;
+  }
+  main .Second .Secondup .listride .swiper-pagination {
+    width: 100vw;
+    margin: 0 0 40px 0;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    font-family: "mang2", "Noto Sans KR", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    z-index: 5;
+    font-family: "mang2", "Noto Sans KR", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    order: 1;
+    padding-left: 16px;
+  }
+  main .Second .Secondup .listride .swiper-pagination .swiper-pagination-bullet {
+    width: unset;
+    height: unset;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 600;
+    line-height: 1.3;
+    border-radius: unset;
+    background-color: white !important;
+    color: black !important;
+    opacity: 1;
+    padding: 7px 15px 5px;
+    text-align: center;
+    border: 1px solid black;
+    white-space: nowrap;
+  }
+  main .Second .Secondup .listride .swiper-pagination .swiper-pagination-bullet:hover {
+    background-color: black !important;
+    color: white !important;
+  }
+  main .third {
+    padding: 0 !important;
+    background-color: #fcf5db;
+    border-bottom: 1px solid;
+    width: 100%;
+    height: 1300px;
+    z-index: -1;
+    position: relative;
+  }
+  main .third .thirdup {
+    padding: 0 !important;
+    margin-right: 0 !important;
+    display: flex;
+    word-break: keep-all;
+    flex-direction: column;
+    position: relative;
+  }
+  main .third .thirdup .title3box {
+    width: 100%;
+    padding-left: 16px;
+    border: none;
+    position: relative;
+  }
+  main .third .thirdup .title3box .title3 {
+    font-family: "mang4", "Noto Sans KR", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    width: 100%;
+  }
+  main .third .thirdup .title3box p {
+    text-align: left;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+  main .third .thirdup .title3box span {
+    width: 100%;
+  }
+  main .third .thirdup .title3box span img {
+    max-width: 79%;
+    /* padding-right: 60px; */
+    position: absolute;
+    bottom: -1110px;
+    left: 83px;
+  }
+  main .third .thirdup .List3box {
+    width: 100%;
+    right: 0;
+    height: 900px;
+    margin-bottom: 0 !important;
+  }
+  main .third .thirdup .List3box img {
+    width: 100%;
+    height: 40%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .third .thirdup .List3box .List3 {
+    text-align: inherit;
+    padding: 20px;
+    font-family: "mang2", "Noto Sans KR", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    height: 7%;
+  }
+  main .third .thirdup .List3box .detail {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    flex-direction: column;
+  }
+  main .third .thirdup .List3box .detail .detailtext {
+    width: 50%;
+    padding: 20px;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  main .third .thirdup .List3box .detail .detailtext h2 {
+    font-family: "mang2", "Noto Sans KR", sans-serif;
+    font-size: 1.25rem;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  main .third .thirdup .List3box .detail .detailtext p {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+  }
+  main .third .thirdup .List3box .detail .detailtext:nth-of-type(1),
+main .third .thirdup .List3box .detail .detailtext:nth-of-type(2),
+main .third .thirdup .List3box .detail .detailtext:nth-of-type(3) {
+    border-bottom: 1px solid;
+  }
+  main .third .thirdup .List3box .detail .detailtext:nth-of-type(1),
+main .third .thirdup .List3box .detail .detailtext:nth-of-type(3) {
+    border-right: none;
+  }
+  main .third .more3 {
+    position: absolute;
+    border: none;
+    left: 0;
+    bottom: 50px;
+  }
+  main .third .more3 a {
+    font-size: 19px;
+    font-weight: 400 !important;
+    padding-right: 2em;
+    padding-left: 0.7em;
+    font-family: "mang2";
+    display: inline-block;
+  }
+  main .third .more3 a:hover {
+    -webkit-animation: emove 300ms ease forwards;
+            animation: emove 300ms ease forwards;
+  }
+  @-webkit-keyframes emove {
+    from {
+      transform: translateX(-50px);
+    }
+  }
+  @keyframes emove {
+    from {
+      transform: translateX(-50px);
+    }
+  }
+  main .fourth {
+    width: 100%;
+    z-index: -1;
+    position: relative;
+    padding: 40px 0 !important;
+    border-bottom: 1px solid;
+    overflow-x: hidden;
+  }
+  main .fourth .fourthup {
+    padding: 0 17px !important;
+    width: 100% !important;
+    max-width: inherit;
+    display: flex;
+    flex-direction: column;
+  }
+  main .fourth .fourthup .title4hbox {
+    width: 100%;
+  }
+  main .fourth .fourthup .title4hbox .title4 {
+    font-family: "mang4", "Noto Sans KR", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    width: 100%;
+  }
+  main .fourth .fourthup .title4hbox p {
+    width: 80%;
+    text-align: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+  main .fourth .fourthup .List4box {
+    width: 100%;
+    position: relative;
+    margin-top: 5%;
+  }
+  main .fourth .fourthup .List4box .ja {
+    width: 100%;
+  }
+  main .fourth .fourthup .List4box .ja .swiper.mySwiper2 .swiper-wrapper .swiper-slide {
+    width: 550px;
+    height: 400px;
+  }
+  main .fourth .fourthup .List4box .ja .swiper.mySwiper2 .swiper-wrapper .swiper-slide a {
+    width: 100%;
+    height: 100%;
+  }
+  main .fourth .fourthup .List4box .ja .swiper.mySwiper2 .swiper-wrapper .swiper-slide a img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 300px;
+    height: 300px;
+  }
+  main .fourth .fourthup .List4box .ja .swiper.mySwiper2 .swiper-wrapper .swiper-slide a::after {
+    background-image: url(../img/journal-icon-01.svg);
+    content: "";
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #09c15e;
+    background-size: 100%;
+  }
+  main .fourth .fourthup .List4box .ja .swiper.mySwiper2 .swiper-wrapper .swiper-slide h2 {
+    padding: 3px 0;
+    font-family: "mang4", "Noto Sans KR", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+  }
+  main .fourth .fourthup .List4box .ja .swiper.mySwiper2 .swiper-wrapper .swiper-slide span {
+    text-align: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+  main .fourth .fourthup .List4box .ja:hover {
+    cursor: url(../img/swipe-cursor.svg) 15 15, progress;
+    z-index: 10;
+  }
+  main .fourth .fourthup .List4box .more4 {
+    position: absolute;
+    left: 0;
+    top: 390px;
+  }
+  main .fourth .fourthup .List4box .more4 a {
+    font-size: 22px;
+    font-weight: 600 !important;
+    padding-right: 1em;
+    padding-left: 0.7em;
+    font-family: "mang3";
+  }
+  main .Fifth {
+    width: 100%;
+    padding: 40px 0 !important;
+    background-color: #e5f0f3;
+    border-bottom: 1px solid;
+  }
+  main .Fifth .Fifthup {
+    padding: 0 16px 20px !important;
+    width: 100% !important;
+    max-width: inherit;
+    display: flex;
+    flex-direction: column;
+  }
+  main .Fifth .Fifthup .title5 {
+    width: 100%;
+    font-family: "mang4", "Noto Sans KR", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+  }
+  main .Fifth .Fifthup #Accordion_wrap {
+    width: 100%;
+    word-break: keep-all;
+  }
+  main .Fifth .Fifthup #Accordion_wrap .content {
+    padding: 20px 0 15px;
+    border: 0;
+    background-color: transparent !important;
+    /* h5 {
+            font-family: 'mang4', 'Noto Sans KR', sans-serif;
+            font-size: 25px;
+            font-weight: 900;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            img {
+                display: block;
+            }
+        }
+
+        .menubars {
+            display: none;
+        }
+
+        div {
+            font-size: 15px;
+            font-family: 'Noto Sans KR', sans-serif;
+            padding: 15px 15px 0 0;
+            max-width: 810px;
+        } */
+  }
+  main .Fifth .Fifthup #Accordion_wrap .content .que:first-child {
+    border-top: 1px solid black;
+    padding-top: 20px;
+  }
+  main .Fifth .Fifthup #Accordion_wrap .content .que {
+    font-family: "mang4", "Noto Sans KR", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+  }
+  main .Fifth .Fifthup #Accordion_wrap .content .que .arrow-wrap {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+  }
+  main .Fifth .Fifthup #Accordion_wrap .content .que .arrow-wrap .arrow-top {
+    display: none;
+  }
+  main .Fifth .Fifthup #Accordion_wrap .content .que .arrow-wrap .arrow-top.on {
+    display: block;
+  }
+  main .Fifth .Fifthup #Accordion_wrap .content .que .arrow-wrap .arrow-bottom {
+    display: block;
+  }
+  main .Fifth .Fifthup #Accordion_wrap .content .que .arrow-wrap .arrow-bottom.on {
+    display: none;
+  }
+  main .Fifth .Fifthup #Accordion_wrap .content .anw {
+    display: none;
+    overflow: hidden;
+    font-size: 15px;
+    font-family: "Noto Sans KR", sans-serif;
+    padding: 15px 15px 0 0;
+    max-width: 810px;
+  }
+  main .sixth {
+    padding: 40px 0 !important;
+    background-color: #d5fcdf;
+    z-index: -1;
+    position: relative;
+  }
+  main .sixth .sixthup {
+    padding: 0 16px 20px !important;
+    width: 100% !important;
+    max-width: inherit;
+    position: relative;
+  }
+  main .sixth .sixthup .sixthbox {
+    width: 100%;
+  }
+  main .sixth .sixthup .sixthbox .title6 {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 45px;
+  }
+  main .sixth .sixthup .sixthbox .List6box {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+  }
+  main .sixth .sixthup .sixthbox .List6box .emailaddress {
+    float: left;
+    padding-right: 0px;
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  main .sixth .sixthup .sixthbox .List6box .emailaddress div {
+    padding-bottom: 6px;
+    font-size: 15px;
+  }
+  main .sixth .sixthup .sixthbox .List6box .emailaddress input {
+    width: 100%;
+    padding: 8px 14px;
+    border: solid 2px #1f1e1d;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 0 !important;
+  }
+  main .sixth .sixthup .sixthbox .List6box .name {
+    padding-right: 0px;
+    padding-bottom: 10px;
+  }
+  main .sixth .sixthup .sixthbox .List6box .name div {
+    padding-bottom: 6px;
+    font-size: 15px;
+  }
+  main .sixth .sixthup .sixthbox .List6box .name input {
+    width: 100%;
+    padding: 8px 14px;
+    border: solid 2px #1f1e1d;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 0 !important;
+    padding-bottom: 5px;
+  }
+  main .sixth .sixthup .sixthbox .List6box .checkbox {
+    display: flex;
+    padding-bottom: 15px;
+  }
+  main .sixth .sixthup .sixthbox .List6box .checkbox .green {
+    font-size: 15px;
+    color: #00b453;
+  }
+  main .sixth .sixthup .sixthbox .List6box .checkbox .black {
+    font-size: 15px;
+  }
+  main .sixth .sixthup .sixthbox .List6box .save {
+    padding-top: 5px;
+  }
+  main .sixth .sixthup .sixthbox .List6box .save button {
+    background-color: #1f1e1d;
+    font-size: 20px;
+    font-weight: 800;
+    color: #d5fcdf !important;
+    width: 100%;
+    height: 52px;
+    line-height: 56px;
+  }
+  main .sixth .sixthup .sixthimg {
+    width: 100%;
+  }
+  main .sixth .sixthup .sixthimg img {
+    position: relative;
+    left: 121px;
+    bottom: -38px;
+    width: 100%;
+    max-width: 250px;
+  }
+  main .seventh {
+    padding: 40px 0px !important;
+    background-color: #1f1e1d;
+    color: white;
+    height: 260px;
+  }
+  main .seventh .seventhup {
+    padding: 0 16px 20px !important;
+    width: 100% !important;
+    max-width: inherit;
+    display: flex;
+    flex-direction: column;
+  }
+  main .seventh .seventhup .seventhbox {
+    width: 30%;
+  }
+  main .seventh .seventhup .seventhbox img {
+    width: 100%;
+  }
+  main .seventh .seventhup .seventhtext {
+    width: 80%;
+    position: relative;
+  }
+  main .seventh .seventhup .seventhtext .text7 {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 100%;
+    font-family: "mang3";
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 2;
+  }
+  main .seventh .seventhup .seventhtext .more7 {
+    position: relative;
+  }
+  main .seventh .seventhup .seventhtext .more7 a {
+    color: white;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "mang3";
+    position: absolute;
+    top: 160px;
+    left: -87px;
+  }
+  main .seventh .seventhup .seventhtext .more7 img {
+    position: absolute;
+    top: 160px;
+    left: 30px;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "mang4";
+  src: url(../font/AttilaSansClassic-Black.woff) format("woff");
+}
+@font-face {
+  font-family: "mang2";
+  src: url(../font/AttilaSansClassic-Medium.woff) format("woff");
+}
+@font-face {
+  font-family: "mang1";
+  src: url(../font/AttilaSansClassic-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "mang3";
+  src: url(../font/AttilaSansClassic-Semibold.woff) format("woff");
+}
+@font-face {
+  font-family: "112";
+  src: url(../font/Pby7FmXiEBPT4ITbgNA5CgmOUlnI7dAGs2lYoVAUOdqfkBNGBJWUFERI.112.woff2) format("woff");
+}
+@font-face {
+  font-family: "114";
+  src: url(../font/Pby7FmXiEBPT4ITbgNA5CgmOUlnI7dAGs2lYoVAUOdqfkBNGBJWUFERI.114.woff2) format("woff");
+}
+@font-face {
+  font-family: "117";
+  src: url(../font/Pby7FmXiEBPT4ITbgNA5CgmOUlnI7dAGs2lYoVAUOdqfkBNGBJWUFERI.117.woff2) format("woff");
+}
+@font-face {
+  font-family: "118";
+  src: url(../font//Pby7FmXiEBPT4ITbgNA5CgmOUlnI7dAGs2lYoVAUOdqfkBNGBJWUFERI.118.woff2) format("woff");
+}
+@font-face {
+  font-family: "119";
+  src: url(../font/Pby7FmXiEBPT4ITbgNA5CgmOUlnI7dAGs2lYoVAUOdqfkBNGBJWUFERI.119.woff2) format("woff");
+}/*# sourceMappingURL=font.css.map */
